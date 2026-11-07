@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dilmukhammed — проекты</title>
+<meta name="description" content="Небольшие полезные проекты Dilmukhammed: Telegram-бот «Места в поездах», который сообщает о свободных местах на поезда Узбекистана, и приложение «Библиотека» для поиска книг и статей.">
+<meta name="theme-color" content="#111214">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Dilmukhammed — проекты">
+<meta property="og:description" content="Небольшие полезные штуки, которыми пользуюсь сам: бот «Места в поездах» и приложение «Библиотека».">
+<meta property="og:url" content="https://dilmukhammed.github.io/">
+<meta property="og:locale" content="ru_RU">
+<link rel="canonical" href="https://dilmukhammed.github.io/">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">К содержимому</a>
+
+<header class="site-header dark">
+  <div class="wrap">
+    <div class="bar">
+      <a class="brand" href="index.html" aria-label="Dilmukhammed — на главную">
+        <span class="brand-mark" aria-hidden="true">D</span>
+        <span class="brand-name">Dilmukhammed</span>
+        <span class="brand-sub">/ мини-проекты</span>
+      </a>
+      <a class="btn btn-ghost btn-sm icon-sm" href="https://github.com/Dilmukhammed" target="_blank" rel="noopener" aria-label="GitHub: Dilmukhammed">
+        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+        <span class="hide-sm">GitHub</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<div class="dark">
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <div class="hero-grid">
+      <div>
+        <div class="hero-meta tight">
+          <span class="kicker-mono">Последний проект</span>
+          <span class="pill-dark sm"><span class="dot dot-ok glow" aria-hidden="true"></span>Работает</span>
+        </div>
+
+        <h1 class="hero-title" id="hero-title">Места<br>в поездах</h1>
+
+        <p class="lead">Telegram-бот следит за выбранным поездом на сайте Узбекских железных дорог и пишет вам, как только появляются свободные места.</p>
+
+        <ul class="ticks">
+          <li>
+            <span class="tick-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+            Проверка каждые 20–30 секунд
+          </li>
+          <li>
+            <span class="tick-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></span>
+            Уведомление сразу в Telegram
+          </li>
+          <li>
+            <span class="tick-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6"/><path d="M20 4 11 13"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></span>
+            Кнопка открывает сайт ЖД с вашим маршрутом
+          </li>
+        </ul>
+
+        <div class="actions">
+          <a class="btn btn-primary" href="https://t.me/railticket_checker_bot" target="_blank" rel="noopener">
+            Открыть бота
+            <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="trains/index.html">Подробнее</a>
+        </div>
+        <p class="hero-note">Доступ по запросу — нажмите <span class="mono">/start</span>, владелец подтвердит.</p>
+      </div>
+
+      <div class="phone-wrap">
+        <div class="phone" role="img" aria-label="Пример переписки с ботом: запуск наблюдения за поездом Ташкент — Самарканд и уведомление о появившихся местах">
+          <div class="screen">
+            <div class="chat-head">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8B98A5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+              <div class="avatar"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#111214" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="14" rx="3"/><path d="M5 11h14"/><path d="m8 21 2-4"/><path d="m16 21-2-4"/><circle cx="9" cy="14" r=".6"/><circle cx="15" cy="14" r=".6"/></svg></div>
+              <div><div class="chat-title">Места в поездах</div><div class="chat-sub">бот</div></div>
+            </div>
+            <div class="msgs">
+              <div class="msg-out mono">/start</div>
+              <div class="msg msg-in">Заявка отправлена. Как только её одобрят, придёт сообщение.</div>
+              <div class="msg msg-in">
+                <div class="msg-strong"><span class="dot dot-ok"></span>Наблюдение запущено</div>
+                Ташкент → Самарканд, 14 ноября. Проверяю каждые 20–30 секунд.
+              </div>
+              <div class="msg msg-in msg-full">
+                <div class="msg-body">
+                  <div class="msg-strong accent"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>Появились места</div>
+                  <div class="msg-hl">Вагон 06, места 14, 18</div>
+                  <div class="msg-meta">Купе · нижние</div>
+                </div>
+                <div class="msg-btns"><span>Открыть схему</span><span>Открыть сайт ЖД</span></div>
+              </div>
+            </div>
+            <div class="composer">
+              <div class="composer-input">Сообщение</div>
+              <div class="composer-btn">Mini App</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+  <section class="wrap" style="padding-top:72px" aria-label="О сайте">
+    <p class="intro">Небольшие полезные штуки, которыми пользуюсь сам. Бесплатно.</p>
+  </section>
+
+  <section id="projects" class="wrap section end" style="padding-top:72px" aria-labelledby="projects-title">
+    <div class="section-head">
+      <div>
+        <div class="kicker">Каталог</div>
+        <h2 class="h2" id="projects-title">Все проекты</h2>
+      </div>
+      <p>Новые сверху. Нажмите на карточку, чтобы узнать подробнее.</p>
+    </div>
+
+    <div class="grid">
+      <a class="card" href="trains/index.html">
+        <div class="card-top">
+          <span class="tile-icon accent" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="14" rx="3"/><path d="M5 11h14"/><path d="m8 21 2-4"/><path d="m16 21-2-4"/><circle cx="9" cy="14" r=".6"/><circle cx="15" cy="14" r=".6"/></svg></span>
+          <span class="badge-new">новое</span>
+        </div>
+        <h3>Места в поездах</h3>
+        <p>Пишет в Telegram, когда на выбранный поезд появляются свободные места.</p>
+        <div class="tags"><span class="tag">Telegram-бот</span><span class="tag">Mini App</span></div>
+        <div class="card-foot">
+          <span class="status"><span class="dot dot-ok-ink" aria-hidden="true"></span>Работает</span>
+          <span class="go" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span>
+        </div>
+      </a>
+
+      <a class="card" href="library/index.html">
+        <div class="card-top">
+          <span class="tile-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M8 7h7"/><path d="M8 11h5"/></svg></span>
+        </div>
+        <h3>Библиотека</h3>
+        <p>Приложение для поиска книг и научных статей по любым темам. Скачивание книг и статей пока недоступно.</p>
+        <div class="tags"><span class="tag">Приложение</span><span class="tag">Книги и статьи</span></div>
+        <div class="card-foot">
+          <span class="status"><span class="dot dot-accent" aria-hidden="true"></span>В разработке</span>
+          <span class="go" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span>
+        </div>
+      </a>
+
+      <div class="card soon">
+        <div class="card-top">
+          <span class="tile-icon dashed" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M5 12h14"/></svg></span>
+        </div>
+        <h3>Следующий проект</h3>
+        <p>Пока в работе. Появится здесь, когда будет готов.</p>
+        <div class="card-foot">
+          <span class="status dashed"><span class="dot dot-ring" aria-hidden="true"></span>Скоро</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <div class="foot-name">Dilmukhammed</div>
+        <div class="foot-sub">Код и новые проекты — на GitHub.</div>
+      </div>
+      <div class="actions">
+        <a class="btn btn-ghost btn-md" href="https://github.com/Dilmukhammed" target="_blank" rel="noopener">
+          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+          github.com/Dilmukhammed
+        </a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Dilmukhammed · <a href="https://github.com/Dilmukhammed" target="_blank" rel="noopener">GitHub</a></span>
+      <span>Сайт обновляется, когда появляется новый проект</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
