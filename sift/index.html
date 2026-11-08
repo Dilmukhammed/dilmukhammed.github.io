@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sift — Dilmukhammed</title>
+<meta name="description" content="Sift — Telegram-бот и Mini App, которые следят за публичными Telegram-каналами и группами и сразу присылают посты под ваш запрос, написанный обычными словами: квартиры, машины, техника, вакансии.">
+<meta name="theme-color" content="#111214">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sift — Dilmukhammed">
+<meta property="og:description" content="Бот, который находит в Telegram-каналах посты под ваш запрос.">
+<meta property="og:url" content="https://dilmukhammed.github.io/sift/">
+<meta property="og:locale" content="ru_RU">
+<link rel="canonical" href="https://dilmukhammed.github.io/sift/">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">К содержимому</a>
+
+<header class="site-header dark">
+  <div class="wrap">
+    <div class="bar">
+      <a class="brand" href="../index.html" aria-label="Dilmukhammed — на главную">
+        <span class="brand-mark" aria-hidden="true">D</span>
+        <span class="brand-name">Dilmukhammed</span>
+        <span class="brand-sub">/ мини-проекты</span>
+      </a>
+      <nav class="nav-links" aria-label="Проекты">
+        <a href="../index.html">Все проекты</a>
+        <a href="index.html" aria-current="page">Sift</a>
+        <a href="../trains/index.html">Места в поездах</a>
+        <a href="../library/index.html">Библиотека</a>
+      </nav>
+      <a class="btn btn-ghost btn-sm icon-sm" href="https://github.com/Dilmukhammed" target="_blank" rel="noopener" aria-label="GitHub: Dilmukhammed">
+        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+        <span class="hide-sm">GitHub</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<div class="dark">
+  <section class="hero project wrap" aria-labelledby="page-title">
+    <a class="back-link" href="../index.html">
+      <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m11 18-6-6 6-6"/></svg>
+      Все проекты
+    </a>
+
+    <div class="hero-grid">
+      <div>
+        <div class="hero-meta">
+          <span class="project-icon" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h18l-7 8.5V19l-4 2v-8.5z"/></svg></span>
+          <span class="pill-dark"><span class="dot dot-ok glow" aria-hidden="true"></span>Работает</span>
+          <span class="pill-dark">Последний проект</span>
+        </div>
+
+        <h1 class="hero-title md" id="page-title">Sift</h1>
+
+        <p class="lead spaced">Бот, который находит в Telegram-каналах и группах посты под ваш запрос — квартиры, машины, технику, вакансии.</p>
+
+        <div class="actions">
+          <a class="btn btn-primary" href="https://t.me/sift_alert_bot" target="_blank" rel="noopener">
+            Открыть бота
+            <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+          </a>
+          <span class="handle">@sift_alert_bot</span>
+        </div>
+
+        <p class="hero-note lg flex">Доступ по запросу — нажмите <kbd>/start</kbd>, владелец подтвердит.</p>
+      </div>
+
+      <div class="phone-wrap">
+        <div class="phone" role="img" aria-label="Пример уведомления Sift: по запросу «сниму двушку до 500$, Чиланзар» найден пост из канала «Аренда Ташкент», цена 450 долларов в месяц, кнопки «Открыть пост», «Открыть в Sift» и оценка находки">
+          <div class="screen">
+            <div class="chat-head">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8B98A5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+              <div class="avatar"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#111214" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h18l-7 8.5V19l-4 2v-8.5z"/></svg></div>
+              <div><div class="chat-title">Sift</div><div class="chat-sub">бот</div></div>
+            </div>
+            <div class="msgs">
+              <div class="msg-out">сниму двушку до 500$, Чиланзар</div>
+              <div class="msg msg-in">
+                <div class="msg-strong"><span class="dot dot-ok"></span>Запрос сохранён</div>
+                Слежу за 5 каналами и группами.
+              </div>
+              <div class="msg msg-in msg-full">
+                <div class="msg-body">
+                  <div class="msg-strong accent"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>Найдено по запросу</div>
+                  <div class="msg-hl">«сниму двушку до 500$, Чиланзар»</div>
+                  <div class="msg-quote"><b>Аренда Ташкент</b>Сдаётся 2-комн. квартира, Чиланзар-9, рядом метро. Мебель, техника. 450$ в месяц.</div>
+                  <div class="msg-hl">Цена: 450 $/мес</div>
+                  <div class="msg-meta">в лимите · до 500 $/мес</div>
+                </div>
+                <div class="msg-btns"><span>Открыть пост</span><span>Открыть в Sift</span><span>👍</span><span>👎</span></div>
+              </div>
+            </div>
+            <div class="composer">
+              <div class="composer-input">Сообщение</div>
+              <div class="composer-btn">Mini App</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<section class="wrap section lg" aria-labelledby="why-title">
+  <div class="why-grid">
+    <div>
+      <div class="kicker">Sift</div>
+      <h2 class="h2" id="why-title">Зачем это</h2>
+    </div>
+    <p>Объявления о квартирах, машинах и технике разбросаны по десяткам каналов и групп, а хорошие варианты уходят за минуты. Читать всё подряд невозможно. Опишите, что ищете, обычными словами — например, «куплю ноутбук от 16 ГБ, не слабее RTX 3060», — и бот будет читать каналы за вас и присылать только подходящее.</p>
+  </div>
+</section>
+
+<section class="wrap section" aria-labelledby="features-title">
+  <div class="section-head">
+    <div>
+      <div class="kicker">Что умеет</div>
+      <h2 class="h2" id="features-title">Главные фишки</h2>
+    </div>
+  </div>
+
+  <ul class="grid">
+    <li class="feature">
+      <span class="feature-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h13"/><path d="M8 12h13"/><path d="M8 18h13"/><path d="M3 6h.01"/><path d="M3 12h.01"/><path d="M3 18h.01"/></svg></span>
+      <h3>Несколько запросов</h3>
+      <p>У каждого запроса свои каналы и группы. Команды <span class="mono">/new</span>, <span class="mono">/list</span>, <span class="mono">/pause</span>, <span class="mono">/resume</span>.</p>
+    </li>
+    <li class="feature">
+      <span class="feature-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M5 12h14"/></svg></span>
+      <h3>Каналы добавляются сами</h3>
+      <p>Добавьте публичный канал или группу — бот вступит в него сам.</p>
+    </li>
+    <li class="feature">
+      <span class="feature-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6"/><path d="M20 4 11 13"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></span>
+      <h3>Ссылка на оригинал</h3>
+      <p>В каждом уведомлении — кнопка, которая открывает исходный пост.</p>
+    </li>
+    <li class="feature">
+      <span class="feature-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m5.6 5.6 12.8 12.8"/></svg></span>
+      <h3>Без повторов и спама</h3>
+      <p>Репосты и повторы не приходят дважды, а тех, кто заваливает каналы рекламой, бот пропускает.</p>
+    </li>
+    <li class="feature">
+      <span class="feature-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10v11"/><path d="M15 5.9 14 10h5.8a2 2 0 0 1 2 2.3l-1.4 7A2 2 0 0 1 18.5 21H4a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1h2.8a2 2 0 0 0 1.8-1.1L12 2a3 3 0 0 1 3 3.9z"/></svg></span>
+      <h3>Оценка и проверка</h3>
+      <p>👍 или 👎 под каждой находкой. А <span class="mono">/test</span> проверит любое пересланное сообщение.</p>
+    </li>
+    <li class="feature">
+      <span class="feature-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg></span>
+      <h3>Mini App</h3>
+      <p>Лента всех находок по всем запросам, управление запросами и каналами, оригинальный пост — в один тап.</p>
+    </li>
+  </ul>
+</section>
+
+<section class="wrap section" aria-labelledby="how-title">
+  <div class="band">
+    <div class="section-head">
+      <div>
+        <div class="kicker">Под капотом</div>
+        <h2 class="h2 band-h" id="how-title">Как это работает</h2>
+      </div>
+      <p>Каждый новый пост проходит три шага. Бот понимает посты на русском, узбекском и английском.</p>
+    </div>
+
+    <ol class="grid steps">
+      <li class="snippet">
+        <div class="snippet-label">01 · смысл</div>
+        <h3 class="step-title">Быстрый фильтр</h3>
+        <p class="step-text">ИИ проверяет, о чём пост, и сразу отсеивает всё, что не по теме.</p>
+        <div class="chips" aria-hidden="true"><span class="chip on">по теме</span><span class="chip">реклама</span><span class="chip">мимо</span></div>
+      </li>
+      <li class="snippet">
+        <div class="snippet-label">02 · числа</div>
+        <h3 class="step-title">Числа из текста</h3>
+        <p class="step-text">ИИ читает цену, валюту и период — в месяц или посуточно, а ещё комнаты, год, пробег.</p>
+        <div class="stack" aria-hidden="true">
+          <div class="field"><span>Цена</span><span>450 $</span></div>
+          <div class="field"><span>Период</span><span>в месяц</span></div>
+        </div>
+      </li>
+      <li class="snippet">
+        <div class="snippet-label">03 · лимиты</div>
+        <h3 class="step-title">Проверка лимитов</h3>
+        <p class="step-text">Код пересчитывает валюту по курсу ЦБ Узбекистана и сверяет с вашими лимитами.</p>
+        <div class="stack" aria-hidden="true">
+          <div class="field"><span>Лимит</span><span>до 500 $/мес</span></div>
+          <div class="field"><span>Итог</span><span class="ok-text">подходит</span></div>
+        </div>
+      </li>
+    </ol>
+
+    <p class="band-note">Если ИИ временно недоступен, пост всё равно придёт — с пометкой «числа не проверены».</p>
+  </div>
+</section>
+
+<section class="wrap" style="padding-top:40px" aria-label="Ограничения">
+  <div class="limit-strip">
+    <span class="mono">Ограничения</span>
+    <span>Только публичные каналы и группы, до 5 запросов на человека.</span>
+  </div>
+</section>
+
+<section class="wrap section end" aria-labelledby="other-title">
+  <div class="kicker">Ещё</div>
+  <h2 class="h2 sm" id="other-title" style="margin-bottom:32px">Другие проекты</h2>
+
+  <div class="grid">
+    <a class="mini" href="../trains/index.html">
+      <span class="tile-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="14" rx="3"/><path d="M5 11h14"/><path d="m8 21 2-4"/><path d="m16 21-2-4"/><circle cx="9" cy="14" r=".6"/><circle cx="15" cy="14" r=".6"/></svg></span>
+      <div class="mini-body">
+        <h3>Места в поездах</h3>
+        <div>Свободные места на поезда Узбекистана · работает</div>
+      </div>
+      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+    </a>
+
+    <a class="mini" href="../library/index.html">
+      <span class="tile-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M8 7h7"/><path d="M8 11h5"/></svg></span>
+      <div class="mini-body">
+        <h3>Библиотека</h3>
+        <div>Поиск книг и научных статей · в разработке</div>
+      </div>
+      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+    </a>
+
+    <div class="mini soon">
+      <span class="tile-icon dashed" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M5 12h14"/></svg></span>
+      <div class="mini-body">
+        <h3>Скоро</h3>
+        <div>Следующий проект в работе</div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <div class="foot-name">Dilmukhammed</div>
+        <div class="foot-sub">Код и новые проекты — на GitHub.</div>
+      </div>
+      <div class="actions">
+        <a class="btn btn-ghost btn-md" href="https://github.com/Dilmukhammed" target="_blank" rel="noopener">
+          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+          github.com/Dilmukhammed
+        </a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Dilmukhammed · <a href="https://github.com/Dilmukhammed" target="_blank" rel="noopener">GitHub</a></span>
+      <span>Сторонний проект, не связан с Telegram</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

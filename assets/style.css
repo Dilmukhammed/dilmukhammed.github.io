@@ -193,6 +193,13 @@ kbd, .kbd {
 .msg-meta { font-size: 12px; color: #8B98A5; margin-top: 2px; }
 .msg-btns { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; border-top: 2px solid #0E1621; background: #0E1621; }
 .msg-btns span { padding: 10px 4px; text-align: center; background: #1F2F40; color: #7CC4FF; font-size: 13px; font-weight: 500; }
+/* quoted channel post inside a bot message (Sift) */
+.msg-quote {
+  margin: 8px 0; padding: 6px 10px; border-left: 3px solid #7CC4FF; border-radius: 4px;
+  background: rgba(124,196,255,.08); font-size: 13px; line-height: 18px; color: #C9D3DC;
+  overflow-wrap: anywhere;
+}
+.msg-quote b { display: block; font-weight: 600; color: #7CC4FF; margin-bottom: 2px; }
 .results { align-self: flex-start; width: 86%; display: flex; flex-direction: column; gap: 2px; border-radius: 16px 16px 16px 4px; background: #0E1621; overflow: hidden; }
 .result { padding: 10px 12px; background: #182533; }
 .result-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
@@ -304,6 +311,15 @@ ul.grid { list-style: none; margin: 0; padding: 0; }
 .legend span { display: inline-flex; align-items: center; gap: 8px; }
 .legend i { width: 12px; height: 12px; border-radius: 3px; background: var(--accent); }
 .legend i.taken { background: #2A2C31; border: 1px solid var(--line-dark-3); }
+
+/* "how it works" steps (Sift page) */
+ol.grid { list-style: none; margin: 0; padding: 0; }
+.step-title { margin: 0 0 8px; font-size: 18px; line-height: 26px; font-weight: 600; color: var(--on-dark-strong); }
+.step-text { margin: 0 0 16px; font-size: 14px; line-height: 22px; color: var(--on-dark-3); }
+.steps .chips { margin-bottom: 0; }
+.stack { display: flex; flex-direction: column; gap: 8px; }
+.field span.ok-text { color: var(--ok); }
+.band-note { margin: 24px 0 0; font-size: 14px; line-height: 22px; color: var(--on-dark-muted); }
 
 .limit-strip {
   display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; padding: 20px 24px;
