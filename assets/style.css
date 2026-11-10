@@ -409,3 +409,23 @@ a { transition: opacity .15s ease; }
   .msg, .msg-full, .results { width: 92%; max-width: 92%; }
   .btn { padding: 0 20px; }
 }
+
+/* ---------- Кинозал: screenshots ---------- */
+.screen.kz-shot { background: #F1ECE3; }
+.kz-shot img { display: block; width: 100%; height: auto; }
+.shots {
+  display: flex; gap: 20px; list-style: none; margin: 0; padding: 0 0 16px;
+  overflow-x: auto; scroll-snap-type: x mandatory; overscroll-behavior-x: contain;
+}
+.shot { flex: none; width: 240px; scroll-snap-align: start; }
+.shot figure, .shot-wide { margin: 0; }
+.shot img, .shot-wide img {
+  display: block; width: 100%; height: auto; border-radius: 20px;
+  border: 1px solid var(--line-3); background: #F1ECE3;
+}
+.shot figcaption, .shot-wide figcaption { margin-top: 12px; font-size: 14px; line-height: 20px; color: var(--muted); }
+.shot-wide { margin-top: 32px; max-width: 880px; }
+.shot-wide img { background: #111111; }
+@media (max-width: 380px) {
+  .shot { width: 200px; }
+}
