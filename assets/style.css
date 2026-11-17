@@ -381,7 +381,7 @@ a { transition: opacity .15s ease; }
 }
 
 /* ---------- responsive ---------- */
-@media (max-width: 900px) {
+@media (max-width: 1080px) {
   .nav-links { display: none; }
 }
 @media (max-width: 720px) {
@@ -429,3 +429,25 @@ a { transition: opacity .15s ease; }
 @media (max-width: 380px) {
   .shot { width: 200px; }
 }
+
+/* ---------- skarpa: desktop screenshots ---------- */
+.browser-wrap { min-width: 0; }
+.browser {
+  border-radius: 16px; overflow: hidden; background: var(--graphite-2);
+  border: 1px solid #33363C; box-shadow: 0 40px 80px rgba(0,0,0,.45);
+}
+.browser-bar { display: flex; gap: 6px; padding: 12px 14px; }
+.browser-bar i { width: 10px; height: 10px; border-radius: 50%; background: var(--line-dark-3); }
+.browser img { width: 100%; height: auto; }
+.shot-group { margin: 40px 0 16px; font-size: 18px; line-height: 26px; font-weight: 600; }
+.section-head + .shot-group { margin-top: 0; }
+.shot-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(min(440px, 100%), 1fr));
+  gap: 24px 20px; list-style: none; margin: 0; padding: 0;
+}
+.shot-grid figure { margin: 0; }
+.shot-grid img {
+  width: 100%; height: auto; border-radius: 14px;
+  border: 1px solid var(--line-3); background: #F2F2EE;
+}
+.shot-grid figcaption { margin-top: 10px; font-size: 14px; line-height: 20px; color: var(--muted); }
